@@ -1,0 +1,122 @@
+{
+  "caneca_animais": {
+    "img": "https://imgur.com/abc123",
+    "valor": "$12.00",
+    "descricao": "Caneca com estampa de animais",
+    "material": "cerâmica"
+  },
+  "caneca_personalizada": {
+    "img": "https://imgur.com/def456",
+    "valor": "$15.00",
+    "descricao": "Caneca personalizável com foto ou nome",
+    "material": "cerâmica"
+  },
+  "caneca_galaxia": {
+    "img": "https://imgur.com/ghi789",
+    "valor": "$14.00",
+    "descricao": "Caneca com estampa de galáxia",
+    "material": "cerâmica"
+  },
+  "caneca_fofa": {
+    "img": "https://imgur.com/jkl012",
+    "valor": "$10.00",
+    "descricao": "Caneca com desenho fofo de bichinhos",
+    "material": "cerâmica"
+  },
+  "caneca_mug_geek": {
+    "img": "https://imgur.com/mno345",
+    "valor": "$18.00",
+    "descricao": "Caneca geek com personagens de games e filmes",
+    "material": "cerâmica"
+  },
+  "caneca_magica": {
+    "img": "https://imgur.com/pqr678",
+    "valor": "$20.00",
+    "descricao": "Caneca que muda de cor com bebida quente",
+    "material": "cerâmica mágica"
+  },
+  "caneca_cafe": {
+    "img": "https://imgur.com/stu901",
+    "valor": "$13.00",
+    "descricao": "Caneca clássica para café",
+    "material": "cerâmica"
+  },
+  "caneca_termo": {
+    "img": "https://imgur.com/vwx234",
+    "valor": "$22.00",
+    "descricao": "Caneca térmica que mantém a bebida quente",
+    "material": "inox"
+  },
+  "caneca_minimalista": {
+    "img": "https://imgur.com/yzA567",
+    "valor": "$11.00",
+    "descricao": "Caneca com design minimalista",
+    "material": "cerâmica"
+  },
+  "caneca_fantasia": {
+    "img": "https://imgur.com/BbC890",
+    "valor": "$17.00",
+    "descricao": "Caneca temática de fantasia e magia",
+    "material": "cerâmica"
+  },
+  "caneca_frases": {
+    "img": "https://imgur.com/CcD123",
+    "valor": "$12.00",
+    "descricao": "Caneca com frases divertidas",
+    "material": "cerâmica"
+  },
+  "caneca_inspiracao": {
+    "img": "https://imgur.com/DdE456",
+    "valor": "$14.00",
+    "descricao": "Caneca com mensagens inspiradoras",
+    "material": "cerâmica"
+  },
+  "caneca_floral": {
+    "img": "https://imgur.com/EeF789",
+    "valor": "$16.00",
+    "descricao": "Caneca com estampas florais",
+    "material": "cerâmica"
+  },
+  "caneca_nerd": {
+    "img": "https://imgur.com/FfG012",
+    "valor": "$18.00",
+    "descricao": "Caneca nerd com fórmulas e códigos",
+    "material": "cerâmica"
+  },
+  "caneca_vintage": {
+    "img": "https://imgur.com/GgH345",
+    "valor": "$19.00",
+    "descricao": "Caneca com estilo retrô/vintage",
+    "material": "cerâmica"
+  },
+  "caneca_estampa_arte": {
+    "img": "https://imgur.com/HhI678",
+    "valor": "$21.00",
+    "descricao": "Caneca com estampas artísticas",
+    "material": "cerâmica"
+  },
+  "caneca_comics": {
+    "img": "https://imgur.com/IiJ901",
+    "valor": "$17.00",
+    "descricao": "Caneca com quadrinhos de comics",
+    "material": "cerâmica"
+  },
+  "caneca_espacial": {
+    "img": "https://imgur.com/JjK234",
+    "valor": "$20.00",
+    "descricao": "Caneca com tema espacial e planetas",
+    "material": "cerâmica"
+  },
+  "caneca_pintura": {
+    "img": "https://imgur.com/KkL567",
+    "valor": "$22.00",
+    "descricao": "Caneca pintada à mão",
+    "material": "cerâmica artesanal"
+  },
+  "caneca_cozinha": {
+    "img": "https://imgur.com/LlM890",
+    "valor": "$15.00",
+    "descricao": "Caneca ideal para chás e cafés da manhã",
+    "material": "cerâmica"
+  }
+}
