@@ -1,22 +1,4 @@
 export default function Main() {
-  const produtos = {
-    bonecos: {
-      img: "https://imgur.com/CBJMz1d",
-      minimo: "$3000.00",
-      nome: "bonecos sa"
-    },
-    canecas: {
-      img: "https://imgur.com/cW6oYew",
-      minimo: "$1500.00",
-      nome: "canecas personalizadas"
-    },
-    pelucias: {
-      img: "https://imgur.com/omyCETK",
-      minimo: "$2000.00",
-      nome: "pelúcias fofas"
-    }
-  };
-
   // Função para converter link do Imgur para imagem direta
   const getImageUrl = (imgurLink) => {
     const id = imgurLink.split('/').pop();
