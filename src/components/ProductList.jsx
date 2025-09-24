@@ -10,24 +10,8 @@ export default function ProductList({ factoryKey, onBack }) {
     const loadProducts = async () => {
       try {
         setLoading(true)
-        let productData = {}
-        
-        // Carrega os dados baseado na fábrica selecionada
-        switch (factoryKey) {
-          case 'bonecos':
-            productData = await import('../assets/Produtos/Bonecos.json')
-            break
-          case 'canecas':
-            productData = await import('../assets/Produtos/Canecas.json')
-            break
-          case 'pelucias':
-            productData = await import('../assets/Produtos/Pelucias.json')
-            break
-          default:
-            throw new Error('Fábrica não encontrada')
-        }
-        
-        setProducts(productData.default || productData)
+        const module = await import(`../assets/Produtos/${factoryKey}.json`)
+        setProducts(module.default || module)
       } catch (err) {
         setError('Erro ao carregar produtos')
         console.error('Erro ao carregar produtos:', err)
@@ -36,9 +20,7 @@ export default function ProductList({ factoryKey, onBack }) {
       }
     }
 
-    if (factoryKey) {
-      loadProducts()
-    }
+    if (factoryKey) loadProducts()
   }, [factoryKey])
 
   const getImageUrl = (imgurLink) => {
@@ -91,46 +73,34 @@ export default function ProductList({ factoryKey, onBack }) {
         <h2 className="section-title">
           {Object.keys(products).length} Produtos Disponíveis
         </h2>
-        
+
         <div className="products-grid">
           {Object.entries(products).map(([key, produto]) => (
             <div key={key} className="product-card">
               <div className="product-image-container">
-                <img 
-                  src={getImageUrl(produto.img)} 
+                <img
+                  src={getImageUrl(produto.img)}
                   alt={produto.descricao}
                   className="product-image"
-                  onError={(e) => {
-                    e.target.style.display = 'none'
-                  }}
+                  onError={(e) => { e.target.style.display = 'none' }}
                 />
               </div>
-              
+
               <div className="product-info">
-                <h3 className="product-name">
-                  {key.replace(/_/g, ' ')}
-                </h3>
-                <p className="product-price">
-                  {produto.valor}
-                </p>
+                <h3 className="product-name">{key.replace(/_/g, ' ')}</h3>
+                <p className="product-price">{produto.valor}</p>
                 {produto.descricao && (
-                  <p className="product-description">
-                    {produto.descricao}
-                  </p>
+                  <p className="product-description">{produto.descricao}</p>
                 )}
                 {produto.material && (
-                  <p className="product-material">
-                    Material: {produto.material}
-                  </p>
+                  <p className="product-material">Material: {produto.material}</p>
                 )}
-                <button className="product-btn">
-                  Solicitar Orçamento
-                </button>
+                <button className="product-btn">Adcionar ao carrinho </button>
               </div>
             </div>
           ))}
         </div>
-        
+
         {Object.keys(products).length === 0 && (
           <div className="text-center">
             <p>Nenhum produto encontrado.</p>

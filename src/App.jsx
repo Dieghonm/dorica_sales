@@ -7,7 +7,7 @@ import './styles/Global.css'
 import './styles/APP.css'
 
 export default function App() {
-  const [currentView, setCurrentView] = useState('factories') // 'factories' ou 'products'
+  const [currentView, setCurrentView] = useState('factories')
   const [selectedFactory, setSelectedFactory] = useState(null)
 
   const handleFactorySelect = (factoryKey) => {

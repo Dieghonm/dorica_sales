@@ -1,15 +1,15 @@
 {
-  "bonecos": {
+  "canecas": {
     "img": "https://imgur.com/CBJMz1d",
     "minimo": "$3000.00",
     "nome": "canecas personalizadas"
   },
-  "canecas": {
+  "pelucias": {
     "img": "https://imgur.com/cW6oYew",
     "minimo": "$1500.00",
     "nome": "pelúcias fofas"
   },
-  "pelucias": {
+  "bonecos": {
     "img": "https://imgur.com/omyCETK",
     "minimo": "$2000.00",
     "nome": "bonecos sa"

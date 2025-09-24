@@ -17,7 +17,6 @@ export default function Header({ onBack, currentView, factoryName }) {
     if (currentView === 'products') {
       return 'Confira nossa seleção de produtos'
     }
-    return 'Sua loja de produtos personalizados'
   }
 
   return (

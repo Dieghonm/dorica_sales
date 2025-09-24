@@ -1,122 +1,38 @@
 {
-  "boneco_heroi": {
-    "img": "https://imgur.com/aaa111",
+  "Snoop": {
+    "img": "https://imgur.com/GPxnglX",
     "valor": "$45.00",
-    "descricao": "Boneco colecionável de herói em escala 1:12",
+    "descricao": "Boneco colecionável Snoop",
     "material": "PVC premium"
   },
-  "boneco_vilao": {
-    "img": "https://imgur.com/bbb222",
-    "valor": "$50.00",
-    "descricao": "Boneco colecionável de vilão clássico",
+   "beetlejuice": {
+    "img": "https://imgur.com/MV1drGr",
+    "valor": "$45.00",
+    "descricao": "Boneco colecionável beetlejuice",
     "material": "PVC premium"
   },
-  "boneco_anime": {
-    "img": "https://imgur.com/ccc333",
-    "valor": "$40.00",
-    "descricao": "Boneco colecionável de personagem de anime",
-    "material": "PVC pintado à mão"
-  },
-  "boneco_video_game": {
-    "img": "https://imgur.com/ddd444",
-    "valor": "$55.00",
-    "descricao": "Boneco colecionável inspirado em videogames",
-    "material": "PVC resistente"
-  },
-  "boneco_fantasia": {
-    "img": "https://imgur.com/eee555",
-    "valor": "$48.00",
-    "descricao": "Boneco colecionável de personagem de fantasia",
-    "material": "PVC e tecido"
-  },
-  "boneco_movie": {
-    "img": "https://imgur.com/fff666",
-    "valor": "$60.00",
-    "descricao": "Boneco colecionável de personagem de filme famoso",
-    "material": "PVC detalhado"
-  },
-  "boneco_serie": {
-    "img": "https://imgur.com/ggg777",
-    "valor": "$52.00",
-    "descricao": "Boneco colecionável de série de TV",
+   "H Potter": {
+    "img": "https://imgur.com/XQc5nPW",
+    "valor": "$45.00",
+    "descricao": "Boneco colecionável H Potter",
     "material": "PVC premium"
   },
-  "boneco_classico": {
-    "img": "https://imgur.com/hhh888",
-    "valor": "$38.00",
-    "descricao": "Boneco colecionável clássico retrô",
-    "material": "PVC resistente"
-  },
-  "boneco_miniatura": {
-    "img": "https://imgur.com/iii999",
-    "valor": "$35.00",
-    "descricao": "Miniatura colecionável de personagem famoso",
-    "material": "PVC"
-  },
-  "boneco_robô": {
-    "img": "https://imgur.com/jjj000",
-    "valor": "$58.00",
-    "descricao": "Boneco colecionável de robô futurista",
-    "material": "PVC e metal"
-  },
-  "boneco_dragao": {
-    "img": "https://imgur.com/kkk111",
-    "valor": "$65.00",
-    "descricao": "Boneco colecionável de dragão detalhado",
-    "material": "PVC e resina"
-  },
-  "boneco_zumbi": {
-    "img": "https://imgur.com/lll222",
-    "valor": "$42.00",
-    "descricao": "Boneco colecionável de zumbi assustador",
+   "Deku": {
+    "img": "https://imgur.com/mhIKe2s",
+    "valor": "$45.00",
+    "descricao": "Boneco colecionável Deku",
     "material": "PVC premium"
   },
-  "boneco_superheroina": {
-    "img": "https://imgur.com/mmm333",
-    "valor": "$50.00",
-    "descricao": "Boneco colecionável de super-heroína",
-    "material": "PVC detalhado"
-  },
-  "boneco_monstro": {
-    "img": "https://imgur.com/nnn444",
-    "valor": "$47.00",
-    "descricao": "Boneco colecionável de monstro clássico",
-    "material": "PVC e resina"
-  },
-  "boneco_figurinha": {
-    "img": "https://imgur.com/ooo555",
-    "valor": "$36.00",
-    "descricao": "Boneco colecionável em miniatura para display",
-    "material": "PVC"
-  },
-  "boneco_pokemon": {
-    "img": "https://imgur.com/ppp666",
-    "valor": "$44.00",
-    "descricao": "Boneco colecionável de Pokémon",
+   "Patrick": {
+    "img": "https://imgur.com/hBMm9uB",
+    "valor": "$45.00",
+    "descricao": "Boneco colecionável Patrick",
     "material": "PVC premium"
   },
-  "boneco_marvel": {
-    "img": "https://imgur.com/qqq777",
-    "valor": "$55.00",
-    "descricao": "Boneco colecionável de personagem Marvel",
-    "material": "PVC detalhado"
-  },
-  "boneco_dc": {
-    "img": "https://imgur.com/rrr888",
-    "valor": "$53.00",
-    "descricao": "Boneco colecionável de personagem DC Comics",
+   "Mulher Maravilha": {
+    "img": "https://imgur.com/PuJNU4D",
+    "valor": "$45.00",
+    "descricao": "Boneco colecionável Mulher Maravilha",
     "material": "PVC premium"
-  },
-  "boneco_starwars": {
-    "img": "https://imgur.com/sss999",
-    "valor": "$60.00",
-    "descricao": "Boneco colecionável de Star Wars",
-    "material": "PVC e metal"
-  },
-  "boneco_marvel_2": {
-    "img": "https://imgur.com/ttt000",
-    "valor": "$57.00",
-    "descricao": "Outro boneco colecionável Marvel detalhado",
-    "material": "PVC detalhado"
   }
 }
