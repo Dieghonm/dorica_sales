@@ -2,31 +2,37 @@
   "Capivara": {
     "img": "https://imgur.com/Krm4oWa",
     "valor": "$30.00",
-    "descricao": "capivara de pelucia",
-    "material": "kevlar com chumbo"
+    "descricao": "Capivara de pelúcia",
+    "tamanho": "25x20cm",
+    "minimo": 1
   },
   "Boneca Pistolada": {
     "img": "https://imgur.com/ZzokjN9",
     "valor": "$15.00",
-    "descricao": "Boneca de pelucia nervosinha",
-    "material": "pelucia colorida"
+    "descricao": "Boneca de pelúcia nervosinha",
+    "tamanho": "20x15cm",
+    "minimo": 1
   },
   "Gorila": {
     "img": "https://imgur.com/VWTgiUF",
     "valor": "$15.00",
-    "descricao": "Gorila de pelucia fofinho",
-    "material": "pelucia premium"
+    "descricao": "Gorila de pelúcia fofinho",
+    "tamanho": "22x18cm",
+    "minimo": 1
   },
   "Ursinho": {
     "img": "https://imgur.com/VXXKE5E",
     "valor": "$15.00",
     "descricao": "Ursinho com camiseta listrada",
-    "material": "pelucia macia"
+    "tamanho": "20x15cm",
+    "minimo": 1
   },
   "Ursinho Mauricinho": {
     "img": "https://imgur.com/wJHWJ1l",
     "valor": "$15.00",
-    "descricao": "Urcinho com camiseta polo",
-    "material": "pelucia colorida"
+    "descricao": "Ursinho com camiseta polo",
+    "tamanho": "20x15cm",
+    "minimo": 1
   }
 }
+

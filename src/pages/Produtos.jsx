@@ -1,16 +1,18 @@
 import { useState, useEffect } from 'react'
-import '../styles/componentes/Main.css'
+import { useParams, useNavigate } from 'react-router-dom'
 
-export default function ProductList({ factoryKey, onBack }) {
+function Produtos() {
   const [products, setProducts] = useState({})
   const [loading, setLoading] = useState(true)
   const [error, setError] = useState(null)
+  const { id } = useParams()
+  const navigate = useNavigate()
 
   useEffect(() => {
     const loadProducts = async () => {
       try {
         setLoading(true)
-        const module = await import(`../assets/Produtos/${factoryKey}.json`)
+        const module = await import(`../assets/Produtos/${id}.json`)
         setProducts(module.default || module)
       } catch (err) {
         setError('Erro ao carregar produtos')
@@ -19,9 +21,8 @@ export default function ProductList({ factoryKey, onBack }) {
         setLoading(false)
       }
     }
-
-    if (factoryKey) loadProducts()
-  }, [factoryKey])
+    if (id) loadProducts()
+  }, [id])
 
   const getImageUrl = (imgurLink) => {
     const id = imgurLink.split('/').pop()
@@ -37,7 +38,7 @@ export default function ProductList({ factoryKey, onBack }) {
             {Array.from({ length: 6 }).map((_, index) => (
               <div key={index} className="product-card">
                 <div className="product-image-container">
-                  <div className="product-image" />
+                  <div className="product-image skeleton" />
                 </div>
                 <div className="product-info">
                   <div className="product-name">Carregando...</div>
@@ -58,7 +59,7 @@ export default function ProductList({ factoryKey, onBack }) {
           <h2 className="section-title">Erro</h2>
           <div className="text-center">
             <p>{error}</p>
-            <button className="btn btn-primary" onClick={onBack}>
+            <button className="btn btn-primary" onClick={() => navigate(-1)}>
               Voltar para Fábricas
             </button>
           </div>
@@ -89,13 +90,24 @@ export default function ProductList({ factoryKey, onBack }) {
               <div className="product-info">
                 <h3 className="product-name">{key.replace(/_/g, ' ')}</h3>
                 <p className="product-price">{produto.valor}</p>
+
                 {produto.descricao && (
                   <p className="product-description">{produto.descricao}</p>
                 )}
-                {produto.material && (
-                  <p className="product-material">Material: {produto.material}</p>
+
+                {produto.tamanho && (
+                  <p className="product-size">
+                    <strong>Tamanho:</strong> {produto.tamanho}
+                  </p>
                 )}
-                <button className="product-btn">Adcionar ao carrinho </button>
+
+                {produto.minimo && (
+                  <p className="product-minimo">
+                    <strong>Mínimo:</strong> {produto.minimo} un.
+                  </p>
+                )}
+
+                <button className="product-btn">Adicionar ao carrinho</button>
               </div>
             </div>
           ))}
@@ -104,7 +116,7 @@ export default function ProductList({ factoryKey, onBack }) {
         {Object.keys(products).length === 0 && (
           <div className="text-center">
             <p>Nenhum produto encontrado.</p>
-            <button className="btn btn-primary" onClick={onBack}>
+            <button className="btn btn-primary" onClick={() => navigate(-1)}>
               Voltar para Fábricas
             </button>
           </div>
@@ -113,3 +125,6 @@ export default function ProductList({ factoryKey, onBack }) {
     </main>
   )
 }
+
+export default Produtos
+

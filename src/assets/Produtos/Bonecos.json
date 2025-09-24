@@ -3,36 +3,42 @@
     "img": "https://imgur.com/GPxnglX",
     "valor": "$45.00",
     "descricao": "Boneco colecionável Snoop",
-    "material": "PVC premium"
+    "tamanho": "30 por 20cm",
+    "minimo": 1
   },
-   "beetlejuice": {
+  "Beetlejuice": {
     "img": "https://imgur.com/MV1drGr",
     "valor": "$45.00",
-    "descricao": "Boneco colecionável beetlejuice",
-    "material": "PVC premium"
+    "descricao": "Boneco colecionável Beetlejuice",
+    "tamanho": "30 por 20cm",
+    "minimo": 1
   },
-   "H Potter": {
+  "H Potter": {
     "img": "https://imgur.com/XQc5nPW",
     "valor": "$45.00",
     "descricao": "Boneco colecionável H Potter",
-    "material": "PVC premium"
+    "tamanho": "30 por 20cm",
+    "minimo": 1
   },
-   "Deku": {
+  "Deku": {
     "img": "https://imgur.com/mhIKe2s",
     "valor": "$45.00",
     "descricao": "Boneco colecionável Deku",
-    "material": "PVC premium"
+    "tamanho": "30 por 20cm",
+    "minimo": 1
   },
-   "Patrick": {
+  "Patrick": {
     "img": "https://imgur.com/hBMm9uB",
     "valor": "$45.00",
     "descricao": "Boneco colecionável Patrick",
-    "material": "PVC premium"
+    "tamanho": "30 por 20cm",
+    "minimo": 1
   },
-   "Mulher Maravilha": {
+  "Mulher Maravilha": {
     "img": "https://imgur.com/PuJNU4D",
     "valor": "$45.00",
     "descricao": "Boneco colecionável Mulher Maravilha",
-    "material": "PVC premium"
+    "tamanho": "30 por 20cm",
+    "minimo": 1
   }
 }

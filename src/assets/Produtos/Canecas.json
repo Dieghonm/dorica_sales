@@ -3,24 +3,29 @@
     "img": "https://imgur.com/SYHHXwp",
     "valor": "$12.00",
     "descricao": "Caneca com estampa do dia dos pais",
-    "material": "cerâmica"
+    "tamanho": "9x8cm",
+    "minimo": 1
   },  
   "Miau": {
     "img": "https://imgur.com/bE7fvWk",
     "valor": "$12.00",
     "descricao": "Caneca com estampa de gatos",
-    "material": "cerâmica"
+    "tamanho": "9x8cm",
+    "minimo": 1
   },  
   "Cafe": {
     "img": "https://imgur.com/YTUGenR",
     "valor": "$12.00",
     "descricao": "Caneca com estampa de café",
-    "material": "cerâmica"
+    "tamanho": "9x8cm",
+    "minimo": 1
   },  
   "Vermelha": {
     "img": "https://imgur.com/vptfOZk",
     "valor": "$12.00",
     "descricao": "Caneca com estampa vermelha",
-    "material": "cerâmica"
+    "tamanho": "9x8cm",
+    "minimo": 1
   }
 }
+

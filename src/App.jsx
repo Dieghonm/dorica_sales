@@ -1,43 +1,28 @@
-import { useState } from 'react'
-import Header from './components/Header'
-import Main from './components/Main'
-import ProductList from './components/ProductList'
-import Footer from './components/Footer'
-import './styles/Global.css'
-import './styles/APP.css'
+// src/App.jsx
+import { BrowserRouter, Routes, Route, Navigate } from 'react-router-dom';
+import Fabricas from './pages/Fabricas';
+import Produtos from './pages/Produtos';
+import Carrinho from './pages/Carrinho';
+import Header from './pages/Header';
+import Footer from './pages/Footer';
 
-export default function App() {
-  const [currentView, setCurrentView] = useState('factories')
-  const [selectedFactory, setSelectedFactory] = useState(null)
+import "./styles/global.css";
 
-  const handleFactorySelect = (factoryKey) => {
-    setSelectedFactory(factoryKey)
-    setCurrentView('products')
-  }
 
-  const handleBackToFactories = () => {
-    setCurrentView('factories')
-    setSelectedFactory(null)
-  }
-
+function App() {
   return (
-    <div className="app-container">
-      <Header 
-        onBack={currentView === 'products' ? handleBackToFactories : null}
-        currentView={currentView}
-        factoryName={selectedFactory}
-      />
-      
-      {currentView === 'factories' ? (
-        <Main onFactorySelect={handleFactorySelect} />
-      ) : (
-        <ProductList 
-          factoryKey={selectedFactory} 
-          onBack={handleBackToFactories}
-        />
-      )}
-      
+    <BrowserRouter basename="/dorica_sales">
+      <Header />
+      <Routes>
+        <Route path="/" element={<Navigate to="/fabricas" replace />} />
+        <Route path="/fabricas" element={<Fabricas />} />
+        <Route path="/produtos/:id" element={<Produtos />} />
+        <Route path="/carrinho" element={<Carrinho />} />
+      </Routes>
       <Footer />
-    </div>
-  )
+    </BrowserRouter>
+  );
 }
+
+export default App;
+
