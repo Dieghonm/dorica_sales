@@ -1,3 +1,5 @@
+import { ShoppingCart } from 'lucide-react';
+
 import '../styles/componentes/Header.css'
 
 export default function Header({ onBack, currentView, factoryName }) {
@@ -39,6 +41,7 @@ export default function Header({ onBack, currentView, factoryName }) {
               ← Voltar
             </button>
           )}
+          <ShoppingCart size={24} onClick={console.log("dentro")}/>
         </div>
       </div>
     </header>
